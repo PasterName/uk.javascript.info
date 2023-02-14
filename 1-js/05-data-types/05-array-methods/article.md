@@ -89,9 +89,9 @@ alert( removed ); // "I", "study" <-- масив видалених елемен
 ```js run
 let arr = ["I", "study", "JavaScript"];
 
-// починаючт з індекса 2
+// починаючи з індекса 2
 // видалимо 0 елементів
-// ваставити "complex" та "language"
+// вставити "complex" та "language"
 arr.splice(2, 0, "complex", "language");
 
 alert( arr ); // "I", "study", "complex", "language", "JavaScript"
